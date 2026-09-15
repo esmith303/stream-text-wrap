@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamwrap"
+version = "0.1.0"
+description = "Text wrapping for streamed input, without loading it all into memory"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "esmith303" }]
+
+[tool.setuptools.packages.find]
+include = ["streamwrap*"]
